@@ -16,6 +16,27 @@ module.exports = {
         lavender: {
           DEFAULT: "#F9E7E7",
         },
+        light_gray: {
+          DEFAULT: "#eaeaea",
+        },
+        light_blue: {
+          DEFAULT: "#b8c9dc",
+        },
+        light_brown: {
+          DEFAULT: "#e8dcc7",
+        },
+        sage_green: {
+          DEFAULT: "#8FB69C",
+        },
+        dusty_blue: {
+          DEFAULT: "#6D9DBF",
+        },
+        muted_mustard: {
+          DEFAULT: "#D5B982",
+        },
+        dark_gray: {
+          DEFAULT: "#4A4A4A",
+        },
       },
     },
     // fontFamily: {
