@@ -7,20 +7,23 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="min-h-screen w-full bg-gradient-to-b from-rose to-timberwolf_light"
+      className="py-16 w-full bg-gradient-to-b from-rose to-timberwolf_light"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="px-5 flex flex-col justify-center h-full text-lavender">
           <h2 className="text-4xl sm:text-7xl font-bold text-lavender py-4">
-            My name is Paige Rolling.
+            Hi, I'm Paige Rolling.
           </h2>
           <p className="text-lavender">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-            commodi ullam harum consequuntur nam fugiat tempore vel neque. Unde
-            provident perferendis cumque non maxime vitae facilis repellat,
-            temporibus obcaecati sit.
+            I'm a Computer Science major at Iowa State with a minor in Spanish.
+            I'm an undergraduate research assistant for the Computer Science
+            department, and I'm currently doing work with the optimizing the
+            parameters of deep neural networks with differential privacy. I am
+            also one of the co-founders of Clear Lake Connected, a social media
+            marketing business. My areas of interest include machine learning,
+            privacy, and web development.
           </p>
-          <div>
+          <div className="pt-4">
             <ReactScrollLink
               to="portfolio"
               spy={true}
