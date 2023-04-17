@@ -2,6 +2,7 @@ import { React, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../images/Personal_Logo.png";
 import { Link as ReactScrollLink } from "react-scroll";
+import Socials from "./Socials";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -26,14 +27,16 @@ const NavBar = () => {
   ];
 
   return (
-    <nav className="flex justify-between items-center w-full h-40 bg-rose text-white pr-2">
-      <div className="cursor-pointer hover:scale-105">
-        <img
-          className="w-64 h-auto hidden md:flex min-w-[256px]"
-          src={logo}
-          alt="Paige Rolling"
-        />
-      </div>
+    <nav className="flex justify-between items-center w-full h-40 bg-rose pr-2 md:fixed">
+      <ReactScrollLink to="home" spy={true} smooth={true} duration={500}>
+        <div className="cursor-pointer hover:scale-105">
+          <img
+            className="w-64 h-auto hidden md:flex min-w-[256px]"
+            src={logo}
+            alt="Paige Rolling"
+          />
+        </div>
+      </ReactScrollLink>
       <ul className="hidden md:flex">
         {links.map((link) => (
           <li
@@ -45,20 +48,20 @@ const NavBar = () => {
               spy={true}
               smooth={true}
               duration={500}
+              scrollToTopOffset={50}
             >
               {link.link}
             </ReactScrollLink>
           </li>
         ))}
       </ul>
-
+      <Socials /> {/* render Socials component here */}
       <div
         onClick={() => setNav(!nav)}
         className="pr-4 cursor-pointer z-10 text-lavender md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
-
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-rose to-timberwolf_light text-gray-500">
           {links.map((link) => (
@@ -75,7 +78,6 @@ const NavBar = () => {
               >
                 {link.link}
               </ReactScrollLink>
-              {/* {link.link} */}
             </li>
           ))}
         </ul>
@@ -85,3 +87,4 @@ const NavBar = () => {
 };
 
 export default NavBar;
+

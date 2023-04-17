@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="py-16 w-full bg-gradient-to-b from-rose to-timberwolf_light"
+      className="md:pt-40 py-16 w-full bg-gradient-to-b from-rose to-timberwolf_light"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="px-5 flex flex-col justify-center h-full text-lavender">
@@ -43,7 +43,7 @@ const Home = () => {
           <img
             src={hero}
             alt="Paige Rolling"
-            className="rounded-2xl md:w-full"
+            className="rounded-2xl md:w-full md:min-w-[400px]"
           />
         </div>
       </div>

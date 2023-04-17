@@ -46,7 +46,7 @@ const About = () => {
   return (
     <div
       name="experience"
-      className="py-4 w-full bg-gradient-to-b from-timberwolf_light to-rose"
+      className=" w-full bg-gradient-to-b from-timberwolf_light to-rose pt-40"
     >
       <div className="max-w-screen-lg mx-auto relative px-4">
         <div className="pb-8">
