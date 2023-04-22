@@ -46,12 +46,16 @@ const About = () => {
   return (
     <div
       name="experience"
-      className=" w-full bg-gradient-to-b from-timberwolf_light to-rose pt-40"
+      className=" w-full bg-gradient-to-b from-timberwolf_light to-rose pt-2"
     >
       <div className="max-w-screen-lg mx-auto relative px-4">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline b-4 text-dark_gray">Experience</p>
-          <p className="py-6 text-dark_gray">Checkout out some of my experience</p>
+          <p className="text-4xl font-bold inline b-4 text-dark_gray">
+            Experience
+          </p>
+          <p className="py-6 text-dark_gray">
+            Checkout out some of my experience
+          </p>
         </div>
         {timelineData.map((item) => (
           <div key={item.id} className="mb-8 last:mb-0">
