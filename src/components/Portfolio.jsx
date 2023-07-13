@@ -24,13 +24,13 @@ const Portfolio = () => {
     {
       id: 3,
       src: coms319,
-      link: "https://github.com/prolling/COM-S-319",
+      link: "",
       description: "COM S 319 Course Work",
     },
     {
       id: 4,
       src: coms363,
-      link: "https://github.com/prolling/COM-S-363",
+      link: "",
       description: "COM S 363 Course Work",
     },
     {
@@ -42,7 +42,7 @@ const Portfolio = () => {
     {
       id: 6,
       src: certifiedrobustness,
-      link: "https://github.com/prolling/Certified-Robustness-with-Optimal-Accuracy",
+      link: "",
       description: "Certified Robustness with Optimal Accuracy",
     },
   ];
@@ -79,7 +79,7 @@ const Portfolio = () => {
 
                   <button className="px-6 py-2 m-4 duration-200 hover:scale-105 text-dark_gray">
                     <a href={project.link} target="_blank" rel="noreferrer">
-                      Code
+                      Ask me about my work!
                     </a>
                   </button>
                 </div>
