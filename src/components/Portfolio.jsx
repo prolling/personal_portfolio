@@ -72,13 +72,13 @@ const Portfolio = () => {
                 </a>
                 <div className="flex-col flex item-center justify-center">
                   <button className=" px-2 py-2 m-4 duration-200 hover:scale-105 text-dark_gray">
-                    <a href={project.link} target="_blank" rel="noreferrer">
+                    <a href={project.link} rel="noreferrer">
                       {project.description}
                     </a>
                   </button>
 
                   <button className="px-6 py-2 m-4 duration-200 hover:scale-105 text-dark_gray">
-                    <a href={project.link} target="_blank" rel="noreferrer">
+                    <a href={project.link} rel="noreferrer">
                       Ask me about my work!
                     </a>
                   </button>
