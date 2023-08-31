@@ -24,25 +24,25 @@ const Portfolio = () => {
     {
       id: 3,
       src: coms319,
-      link: "contact",
+      link: "#contact",
       description: "COM S 319 Course Work",
     },
     {
       id: 4,
       src: coms363,
-      link: "contact",
+      link: "#contact",
       description: "COM S 363 Course Work",
     },
     {
       id: 5,
       src: LTB,
-      link: "contact",
+      link: "#contact",
       description: "Lake Time Brewery Website",
     },
     {
       id: 6,
       src: certifiedrobustness,
-      link: "contact",
+      link: "#contact",
       description: "Certified Robustness with Optimal Accuracy",
     },
   ];
