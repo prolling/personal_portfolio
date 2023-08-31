@@ -24,14 +24,14 @@ const About = () => {
       title: "Undergraduate Research Assistant",
       subtitle: "Iowa State University Computer Science Department",
       description:
-        "Build and implement test beds using Tensorflow in order to find the best trade-off between accuracy and security for Deep Neural Networks secured by Differential Privacy.",
+        "Built and implemented test beds using Tensorflow in order to find the best trade-off between accuracy and security for Deep Neural Networks secured by Differential Privacy.",
     },
     {
       id: 4,
       date: "Summer 2023",
       title: "Software Engineering Intern",
       subtitle: "Cisco Duo Security",
-      description: "In progress...",
+      description: "Completed an intern project which consisted of creating and updating api endpoints in order to allow users to determine trusted devices.",
     },
     {
       id: 5,
