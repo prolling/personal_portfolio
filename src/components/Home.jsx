@@ -16,8 +16,8 @@ const Home = () => {
           </h2>
           <p className="text-lavender">
             I'm a Computer Science major at Iowa State with a minor in Spanish.
-            I'm an undergraduate research assistant for the Computer Science
-            department, and I'm currently doing work with the optimizing the
+            I have been an undergraduate research assistant for the Computer Science
+            department, and I did work with the optimizing the
             parameters of deep neural networks with differential privacy. I am
             also one of the co-founders of Clear Lake Connected, a social media
             marketing business. My areas of interest include machine learning,
