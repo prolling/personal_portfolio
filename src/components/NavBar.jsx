@@ -47,7 +47,6 @@ const NavBar = () => {
               spy={true}
               smooth={true}
               duration={500}
-              // scrollToTopOffset={50}
             >
               {link.link}
             </ReactScrollLink>
