@@ -1,6 +1,5 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineDocumentDownload } from "react-icons/hi";
 import { MdEmail } from "react-icons/md";
 
 const Socials = () => {

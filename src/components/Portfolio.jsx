@@ -1,12 +1,10 @@
 import React from "react";
 // import all of the pictures for different projects
-import LTB from "../images/LTB.png";
 import coms227 from "../images/coms227.png";
 import coms228 from "../images/coms228.png";
 import coms319 from "../images/coms319.png";
 import coms363 from "../images/coms363.png";
 import coms309 from "../images/coms309.png";
-import certifiedrobustness from "../images/certifiedrobustness.png";
 
 const Portfolio = () => {
   const portfolio = [
@@ -38,7 +36,7 @@ const Portfolio = () => {
       id: 5,
       src: coms309,
       link: "https://youtu.be/mr4CO0JYJf0?si=ZNJ05szlPxj4G4qK",
-      description: "Android App called CyPlan that helps students create four-year plans"
+      description: "COM S 309 Course Work - Android App"
     },
   ];
 
