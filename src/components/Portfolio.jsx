@@ -5,6 +5,7 @@ import coms227 from "../images/coms227.png";
 import coms228 from "../images/coms228.png";
 import coms319 from "../images/coms319.png";
 import coms363 from "../images/coms363.png";
+import coms309 from "../images/coms309.png";
 import certifiedrobustness from "../images/certifiedrobustness.png";
 
 const Portfolio = () => {
@@ -24,26 +25,20 @@ const Portfolio = () => {
     {
       id: 3,
       src: coms319,
-      link: "#contact",
+      link: "https://github.com/prolling/Lake-Time-Brewery-Website",
       description: "COM S 319 Course Work",
     },
     {
       id: 4,
       src: coms363,
-      link: "#contact",
+      link: "https://github.com/prolling/COM-S-363",
       description: "COM S 363 Course Work",
     },
     {
       id: 5,
-      src: LTB,
-      link: "#contact",
-      description: "Lake Time Brewery Website",
-    },
-    {
-      id: 6,
-      src: certifiedrobustness,
-      link: "#contact",
-      description: "Certified Robustness with Optimal Accuracy",
+      src: coms309,
+      link: "https://youtu.be/mr4CO0JYJf0?si=ZNJ05szlPxj4G4qK",
+      description: "Android App called CyPlan that helps students create four-year plans"
     },
   ];
 
