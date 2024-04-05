@@ -4,14 +4,35 @@ const About = () => {
   const timelineData = [
     {
       id: 1,
-      date: "Summer 2020 - Present",
+      date: "July 2020 - August 2023",
       title: "Co-Founder and Owner",
       subtitle: "Clear Lake Connected",
       description:
-        "Co-founded a social media marketing business. We provide social media marketing services to small businesses in the Clear Lake area and nationwide. Contact me for more infromation about our services!",
+        "Co-founded a social media marketing business. We provided social media marketing services to small businesses in the Clear Lake area and nationwide.",
     },
     {
       id: 2,
+      date: "Dec 2021 - March 2023",
+      title: "Student Role Model and Social Media Intern",
+      subtitle: "WiSE (Women in Science and Engineering)",
+      description: "Communicated and worked with a team to travel to different schools/events to facilitate an interest in STEM through activities as a student role model. Worked with a team to plan organized posts to spread awareness of the WiSE program at Iowa State University and develop company relations with students as a social media intern."
+    },
+    {
+      id: 3,
+      date: "Winter 2022",
+      title: "Teaching Assistant",
+      subtitle: "ISU Department of Political Science",
+      description: "Worked as a TA for the Intro to International Politics course."
+    },
+    {
+      id: 4,
+      date: "Feb 2022 - May 2024",
+      title: "Computer Science Student Advisory Council Member",
+      subtitle: "ISU Department of Computer Science",
+      description: "Provide feedback to the ISU department of COM S and aid in upholding ABET standards."
+    },
+    {
+      id: 5,
       date: "Summer 2022",
       title: "Data Research Analyst Intern",
       subtitle: "Kingland Systems, Inc.",
@@ -19,27 +40,48 @@ const About = () => {
         "Conducted research and completed data entry on corporations and investment vehicles, using defined procedures to identify relationships and provide validated and credible data.",
     },
     {
-      id: 3,
+      id: 6,
+      date: "Aug 2022 - Dec 2023",
+      title: "Peer Mentor",
+      subtitle: "ISU Department of Computer Science",
+      description: "Aided incoming freshmen at Iowa State in joining the Iowa State Community."
+    },
+    {
+      id: 7,
+      date: "Summer 2022",
+      title: "NIACC VIL STEM Camp Counselor",
+      subtitle: "North Iowa Area Community College",
+      description: "Facilitated and organized activities, lessons, and technology for middle school-aged students to learn and experience at a STEM camp."
+    },
+    {
+      id: 8,
+      date: "Spring 2023",
+      title: "ICPC Regional Competitor",
+      subtitle: "ICPC (International Colligate Programming Contest",
+      description: "Compete with a team to solve programming problems."
+    },
+    {
+      id: 9,
       date: "Spring Semester 2023",
       title: "Undergraduate Research Assistant",
       subtitle: "Iowa State University Computer Science Department",
       description:
-        "Built and implemented test beds using Tensorflow in order to find the best trade-off between accuracy and security for Deep Neural Networks secured by Differential Privacy.",
+        "Built and implemented test beds using Tensorflow to find the best trade-off between accuracy and security for Deep Neural Networks secured by Differential Privacy."
     },
     {
-      id: 4,
+      id: 10,
       date: "Summer 2023",
       title: "Software Engineering Intern",
       subtitle: "Cisco Duo Security",
-      description: "Completed an intern project which consisted of creating and updating api endpoints in order to allow users to determine trusted devices.",
+      description: "Completed an intern project which consisted of creating and updating API endpoints that allow users to determine trusted devices.",
     },
     {
-      id: 5,
-      date: "2021-2025",
-      title: "Bachelor of Science in Computer Science",
+      id: 11,
+      date: "2021-2024",
+      title: "Undergraduate Degree in Computer Science",
       subtitle: "Iowa State University",
       description:
-        "Anticipated Graduation: May 2025 for a Bachelor of Science in Computer Science and minor in Spanish from Iowa State University.",
+        "Anticipated Graduation: May 2024",
     },
   ];
 
