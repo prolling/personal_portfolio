@@ -23,12 +23,6 @@ const Socials = () => {
       link: "mailto:prolling@iastate.edu",
       icon: <MdEmail size={30} />,
     },
-    {
-      id: 4,
-      name: "Resume",
-      link: "/Resume.pdf",
-      icon: <HiOutlineDocumentDownload size={30} />,
-    },
   ];
 
   return (
