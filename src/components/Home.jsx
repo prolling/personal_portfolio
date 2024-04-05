@@ -15,9 +15,9 @@ const Home = () => {
             Hi, I'm Paige Rolling.
           </h2>
           <p className="text-lavender">
-            I'm a Computer Science major at Iowa State with a minor in Spanish.
+            I'm an upcoming Computer Science graduate from Iowa State and an upcoming software engineer at Cisco.
             I have been an undergraduate research assistant for the Computer Science
-            department, and I did work with the optimizing the
+            department, and I did work on optimizing the
             parameters of deep neural networks with differential privacy. I am
             also one of the co-founders of Clear Lake Connected, a social media
             marketing business. My areas of interest include machine learning,
